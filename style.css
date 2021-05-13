@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color:  hsl(0, 93%, 68%, .1);
+    overflow-x: hidden;
+}
+
+.container{
+    display: flex;
+}
+
+.img-1{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.img-2{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    position: absolute;
+    top: 50px;
+    margin-left: 13%;
+}
+
+.teks{
+    position: absolute;
+    top: 25%;
+    margin-left: 13%;
+    font-family:'josefin sans', sans-serif;
+}
+
+h1{
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: 400;
+}
+
+span {
+    color: #eebaa2;
+}
+
+p{
+    line-height: 1.5;
+    font-weight: 600;
+    color: hsl(0, 36%, 70%);
+}
+
+
+.email{
+    margin-top: 20px;
+    width: 400px;
+    height: 45px;
+    border-radius: 60px;
+    padding-left: 20px;
+    border-color:   #F3A183;
+    background: transparent;
+    color: #F3A183;
+    outline: none;
+}
+
+button{
+    
+    background-color: hsl(0, 36%, 70%);
+    border-radius: 60px;
+    height: 45px;
+    width: 80px;
+    cursor: pointer;
+    background-image: hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
+    border: none;
+}
+
+.input img{
+    bottom: 35px;
+    left: 20px;
+}
+
+.input{
+    text-align: center;
+    justify-items: center;
+}
+
+
+button {background-image: linear-gradient(to right, #EC6F66 0%, #F3A183  51%, #EC6F66  100%)}
